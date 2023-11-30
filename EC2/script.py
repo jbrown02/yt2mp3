@@ -121,7 +121,7 @@ if __name__ == "__main__":
     method_parameters = {'Bucket': s3_bucket_name, 'Key': s3_key}
     pre_signed_url = s3_url(s3_client, 'get_object', method_parameters, expires_in=30)
 
-    print(f"Download URL: \033[32m{pre_signed_url}")
+    print(f"Download URL: \033[32m{pre_signed_url}\033[0m")
     
     delete_audio()
     print("Conversion complete!")
