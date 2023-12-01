@@ -49,7 +49,7 @@ The terminal on your native device should have pip, Python3, and paramiko instal
 - expires_in: Expiration time for the pre-signed URL (default is 30 seconds).
 
 ### Usage:
-Run the script based on the absolute path of its location:
+Run the script based on the absolute path of its location  on  your native  device:
 
 ```bash
 python3 /Users/joshuabrown/Desktop/BAS/Code/yt2mp3/trigger.py
