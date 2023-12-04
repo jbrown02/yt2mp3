@@ -6,8 +6,8 @@ def trigger_conversion_on_ec2(ec2_instance_id, youtube_url):
 
     # AWS credentials
     boto3.setup_default_session(
-        aws_access_key_id='AKIARDI66FHQUOUQWOOV',
-        aws_secret_access_key='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',
+        aws_access_key_id='******************',
+        aws_secret_access_key='****************************',
         region_name=region
     )
     
